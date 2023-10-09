@@ -1,0 +1,16 @@
+version: '3'
+services:
+  train: 
+  image: fk23/olatrain:v1
+    ports:
+      - "8000:80"
+
+  bank:
+    image: fk23/olabank:v1
+    ports:
+      - "8001:80"
+
+  loan:
+    image: fk23/olaloan:v1
+    ports:
+      - "8002:80"   
