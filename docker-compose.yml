@@ -1,7 +1,7 @@
 version: '3'
 services:
   train: 
-  image: fk23/olatrain:v1
+    image: fk23/olatrain:v1
     ports:
       - "8000:80"
 
